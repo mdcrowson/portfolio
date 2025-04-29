@@ -10,6 +10,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.5"
+    "autoprefixer": "^10.4.21",
+    "bootstrap": "^5.3.5",
+    "bootstrap-icons": "^1.11.3"
+  },
+  "devDependencies": {
+    "stylelint": "^16.19.1",
+    "stylelint-config-standard": "^38.0.0"
   }
 }
