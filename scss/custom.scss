@@ -5,4 +5,14 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+// :root {
+//     --bs-body-font-family: "Outfit", sans-serif;
+// }
+
+h1, h2 {
+    font-family: "Outfit", sans-serif;
+}
+
 // Then add additional custom code here
