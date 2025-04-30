@@ -1,18 +1,31 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
+$primary: #8493BF;
+$secondary: #393B59;
+$success: #508259; 
+$info: #CEF2F2;
+$warning: #CC9933;
+$danger: #AF3339;
+// $light: ;
+// $dark: ;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+// Include any default variable overrides here (though functions won't be available)
 
-// :root {
-//     --bs-body-font-family: "Outfit", sans-serif;
-// }
-
-h1, h2 {
-    font-family: "Outfit", sans-serif;
+.navbar{
+--bs-navbar-toggler-border-color: none;
 }
 
+
+
+
+
 // Then add additional custom code here
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+h1 {
+    font-family: "Outfit", sans-serif;
+}
