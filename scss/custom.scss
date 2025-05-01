@@ -3,8 +3,8 @@
 
 $primary: #8493BF;
 $secondary: #393B59;
-$success: #508259; 
-$info: #CEF2F2;
+$success: #A5BF84; 
+$info: #77B5C2;
 $warning: #CC9933;
 $danger: #AF3339;
 // $light: ;
@@ -24,6 +24,7 @@ $danger: #AF3339;
 
 // Then add additional custom code here
 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 h1, h2 {
